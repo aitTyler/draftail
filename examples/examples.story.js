@@ -80,7 +80,11 @@ storiesOf("Examples", module)
         ),
         REDACTED_STYLE,
       ]}
-      entityTypes={[ENTITY_CONTROL.EMBED, ENTITY_CONTROL.DOCUMENT]}
+      entityTypes={[
+        ENTITY_CONTROL.EMBED,
+        ENTITY_CONTROL.DOCUMENT,
+        ENTITY_CONTROL.COLOR,
+      ]}
       decorators={[new PrismDecorator({ defaultLanguage: "css" })]}
       controls={[ReadingTime]}
       plugins={[hashtagPlugin]}

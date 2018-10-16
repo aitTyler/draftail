@@ -90,6 +90,7 @@
     "puppeteer": "^1.11.0",
     "react": "^16.8.3",
     "react-benchmark": "^2.1.0",
+    "react-color": "^2.14.1",
     "react-component-benchmark": "0.0.4",
     "react-dom": "^16.8.3",
     "react-intl": "^2.7.2",
